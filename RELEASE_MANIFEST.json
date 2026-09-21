@@ -1,0 +1,25 @@
+{
+  "version": "0.9.5",
+  "build": "4",
+  "commit": "ae6919708d4dfa45e20f5a1eba7769ab73fafc96",
+  "dirty": false,
+  "builtAt": "2026-09-21T18:01:30.889Z",
+  "architecture": "arm64",
+  "file": "Kinetik Triage-0.9.5-arm64.dmg",
+  "sha256": "e7175065594164b72b3f40500c35d4bf44c9d910bac330eba143fa5b4c7f7b8f",
+  "asarSha256": "be58e18e83ab7052501e5d6c5d01973d340f060ee6bee3c6384940793b4eb20d",
+  "minimumMacOS": "13.0",
+  "signature": "Developer ID; deep/strict verification passed",
+  "notarization": "pending; missing kinetik-notary keychain profile",
+  "releaseStatus": "draft candidate, not public download",
+  "testedOn": "Apple silicon MacBook; macOS 27.0",
+  "priorFullUIRevision": "40808a6d3ff0a06a6ba63a6cddf243e336732d01",
+  "finalChange": "explicit validated source-link IPC handoff",
+  "finalUIVerification": [
+    "About confirms 0.9.5 build 4 ae6919708d4d",
+    "Source link opened expected PR in Safari",
+    "12 live cases; saved local Defer restored",
+    "Analytics JSON and Markdown export succeeded"
+  ],
+  "gatekeeper": "rejected: Unnotarized Developer ID"
+}
