@@ -57,3 +57,6 @@ Responsive behavior (mobile composed, not squeezed): side index removed, decisio
 Accessibility fallback (reduced-motion, keyboard, no-JS): semantic landmarks/headings, visible focus, ≥44px controls, polite outcome and alert errors; source workflow explanation remains complete without JavaScript and noscript states example requires JS. No timed UI.
 Performance risk: minimal; static files and system fonts, no remote media or framework.
 Authorship review plan: test interchangeability against unrelated storage/accounting products (sequence must fail transplant); review hero/workbench/release crops for one visual world and distinct compositions; justify each major decision against the visitor questions above. Inspect 1440×1000, 834×1112 and 390×844 and operate all links/form/disclosures.
+
+
+21 September follow-up: update the candidate label to 0.9.6/build 5 and Actions copy to include local Library organization. No composition or interaction changes; the decision example remains sourced from its documented 0.9.5 validation baseline.
