@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.9.6 — build 5 (release candidate)
+
+- Use a full-width reading workspace with evidence and rationale side by side on wide windows.
+- Organize cases with Archive, Delete and Restore in the new Library. Local decisions and history are preserved.
+- Keep organized cases across refreshes and restarts, including saved cases outside the current activity feed.
+- See aligned status badges, the Kinetik logo and clearer queue text.
+- Track archived and deleted totals explicitly in Analytics.
+
 ## 0.9.5 — build 4 (release candidate)
 
 - Open a case's original public GitHub source directly from its summary.

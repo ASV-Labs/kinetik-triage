@@ -9,8 +9,8 @@ Updated 21 September 2026.
 | Item | Value |
 | --- | --- |
 | App | Kinetik Triage |
-| Version / build | 0.9.5 / 4 |
-| Source revision | `ae6919708d4dfa45e20f5a1eba7769ab73fafc96` |
+| Version / build | 0.9.6 / 5 |
+| Source revision | `2457ca87a59b0899a7eddb42219385361045326f` |
 | Architecture | arm64 (Apple silicon) |
 | Minimum OS | macOS 13.0, as declared by the packaged app |
 | Build metadata | Clean source tree; built 21 September 2026 |
@@ -20,17 +20,21 @@ Updated 21 September 2026.
 
 ## Verification performed
 
-- All 20 desktop source tests pass (session rules, corpus handling, process bridge and URL policy).
+- Library Archive/Delete/Restore verified in the signed app; deleted state survives restart.
+- Archiving another row preserves the reading selection. Archiving a reviewed case preserves its decision, and Analytics identifies archived/deleted counts.
+- Full-width reading layout inspected at normal and enlarged text sizes; badge alignment and logo verified.
+
+- All 27 desktop source tests pass (session rules, corpus handling, process bridge and URL policy).
 - Signed package launches on the MacBook and loads real public P0GL0L data.
 - Existing local review state restores; a fresh local decision can be recorded and exported.
-- Final DMG About confirms source `ae6919708d4d`; clicking Source opens the correct GitHub PR in the default browser.
-- Final DMG Analytics export succeeds with 12 cases and the persisted local decision.
-- Bundled Help opens the 0.9.5/build 4 guide.
-- Packaged backend independently exercises approve, reject and defer with relaunch persistence, plus forced empty-error and cached-error paths.
-- The DMG mounts successfully. Its app signature verifies; its application archive matches the signed build's archive byte for byte.
+- The packaged build manifest identifies source `2457ca87a59b`; clicking Source opens the correct GitHub PR in the default browser.
+- Signed application Analytics export succeeds with 12 cases and the persisted local decision.
+- Bundled Help opens the 0.9.6/build 5 guide.
+- Existing session/corpus/bridge tests plus seven Library regressions cover decision versioning, persistence, refresh gaps, restoration, write-failure rollback and selection. The earlier 0.9.5 packaged backend matrix remains separate evidence.
+- The signed 0.9.6 package is built and its signature verifies. Final downloaded/notarized DMG installation remains pending.
 - Landing page reviewed at desktop, tablet and mobile sizes. Blank/short rationale handling, all example outcomes, reset, disclosure and keyboard focus work. WDI gate verification passes; internal WDI-011 score 4.15/5.
 
-The final candidate's observed cache-assisted live run loaded 12 cases, fetched in 126 ms, built the queue in 6 ms and reported 116.0 MB backend RSS with no errors. These are observations from one Mac and request/cache state, not performance guarantees or total app memory.
+The 0.9.6 UI check loaded 12 public cases and exported the report after a local decision was archived. Earlier 0.9.5 performance observations are not a benchmark for this build.
 
 ## What remains before the public DMG
 
@@ -41,7 +45,7 @@ The final candidate's observed cache-assisted live run loaded 12 cases, fetched 
 
 The signed but unnotarized candidate is intentionally not presented as a normal public download. The checksum below identifies the current internal candidate and will change after stapling/repackaging:
 
-`e7175065594164b72b3f40500c35d4bf44c9d910bac330eba143fa5b4c7f7b8f`
+`5c80ebddf1886a96f335d09eb1ab92d185fe8bf9a2e7ef5ffb4c09e404dd5bb5`
 
 ## Alpha limitations
 

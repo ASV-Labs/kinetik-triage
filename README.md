@@ -12,11 +12,12 @@ Kinetik is a Mac app that helps you understand software changes before they affe
 
 1. **Read the change.** Browse proposed changes, issues, and repository activity. Inspect the recommendation, risk band, file coverage, and original GitHub source.
 2. **Record your judgment.** Approve, reject, or defer an eligible case with a case-specific explanation. Each action records a local advisory decision.
-3. **Keep the trail.** Reopen saved decisions, see when an assessment needs a fresh review, and export Analytics & Metrics as JSON and Markdown.
+3. **Organize your queue.** Archive cases for later or move them to Deleted. Open Library to browse and restore either collection.
+4. **Keep the trail.** Reopen saved decisions, see when an assessment needs a fresh review, and export Analytics & Metrics as JSON and Markdown.
 
 ## Try the alpha
 
-**Candidate:** 0.9.5 / build 4 · Apple silicon · macOS 13 or later.
+**Candidate:** 0.9.6 / build 5 · Apple silicon · macOS 13 or later.
 
 The public DMG is being prepared. Developer ID signing is available; Apple notarization remains pending. Check [Releases](https://github.com/ASV-Labs/kinetik-triage/releases) for an explicitly published, verified package before installing. A draft or missing download means the package is not released.
 

@@ -1,6 +1,6 @@
 # Kinetik Triage — alpha user guide
 
-**For version 0.9.5 · build 4 · Apple silicon Mac.** Confirm these in **Kinetik Triage → About Kinetik Triage**. About also shows the source revision; the release manifest identifies the exact package.
+**For version 0.9.6 · build 5 · Apple silicon Mac.** Confirm these in **Kinetik Triage → About Kinetik Triage**. About also shows the source revision; the release manifest identifies the exact package.
 
 ## What Kinetik does
 
@@ -12,7 +12,7 @@ This alpha is a **guided public-data pilot**. It reads public activity for **P0G
 
 Use the [official release page](https://github.com/ASV-Labs/kinetik-triage/releases). It lists the package, SHA-256 checksum, version, build, minimum macOS version, and notarization status. A checksum verifies a downloaded file matches the listed file; it does not replace macOS security checks.
 
-The 0.9.5/build 4 candidate is Developer ID signed. Public download availability depends on Apple notarization and final package verification. If the release page has no downloadable DMG yet, the release is still being prepared. Do not use an old sandbox package as a substitute.
+The 0.9.6/build 5 candidate is Developer ID signed. Public download availability depends on Apple notarization and final package verification. If the release page has no downloadable DMG yet, the release is still being prepared. Do not use an old sandbox package as a substitute.
 
 You need an Apple silicon Mac running macOS 13 or later and an internet connection for fresh GitHub data. Intel Macs, Windows, and Linux are not supported packages in this alpha. You do not need Node.js, a GitHub account, or a GitHub token to use the packaged app.
 
@@ -21,7 +21,7 @@ You need an Apple silicon Mac running macOS 13 or later and an internet connecti
 1. Download the DMG and checksum from the same release.
 2. Open the DMG and drag **Kinetik Triage** to **Applications**.
 3. Open **Applications → Kinetik Triage**. If macOS cannot verify the app, stop and [report the problem](https://github.com/ASV-Labs/kinetik-triage/issues). Do not disable Gatekeeper.
-4. Open **Kinetik Triage → About Kinetik Triage** and confirm **0.9.5**, build **4**.
+4. Open **Kinetik Triage → About Kinetik Triage** and confirm **0.9.6**, build **4**.
 5. Click **Help** in the window, or **Help → User Guide** (⌘/), to open this guide beside the app.
 
 If another version is already running, quit it before opening the new one. Opening this app twice focuses the existing review window.
@@ -34,7 +34,7 @@ Wait for the public queue to load. Select an item under **Needs a decision**. If
 
 ![Queue groups and case details in the preceding 0.9.4 UI](docs/images/01-queue-overview.png)
 
-The screenshots illustrate the 0.9.4 workflow. Build 4 retains this layout and adds clickable source links, stronger contrast, and larger controls; the running app is authoritative for those details.
+The screenshots illustrate the 0.9.4 workflow. Build 5 retains this layout and adds clickable source links, stronger contrast, and larger controls; the running app is authoritative for those details.
 
 | Queue group | Meaning |
 | --- | --- |
@@ -145,3 +145,11 @@ These live under `~/Library/Application Support/Kinetik Triage/`. They are ordin
 | Local advisory | A review note on your Mac that takes no external action |
 
 This is an early pilot for evaluating the review workflow. Account selection, private repositories, team synchronization, editing prior decisions, and automated releases are outside this alpha.
+
+## Organize cases with Library
+
+Use **Archive** below a case in the left list to move it out of Queue and into **Library → Archived**. Use **Delete** to move it to **Library → Deleted**. Both are local, recoverable actions: the GitHub item and its review history remain intact. **Restore** returns either kind of case to Queue. There is no permanent purge in this version.
+
+Archived cases remain included in Analytics; deleted cases are excluded. The report lists both totals. Only active Queue cases contribute to “awaiting review.” Cases must be restored before you can record a new decision. Refreshing or restarting does not undo your organization choices. Library retains the saved case if it falls outside the current GitHub activity window; restore keeps that snapshot in Queue across refreshes and restarts. A “Saved case” notice identifies unavailable current evidence, and new decisions are blocked until the case returns in a successful refresh.
+
+The reading pane uses two columns in a wide window: evidence on the left and your rationale or recorded decision on the right. In a narrower window the sections stack. The top status labels have matching heights, and the Kinetik logo identifies the app. Technical source and scoring-version metadata is available in the header tooltip; the visible account label uses plain language.
