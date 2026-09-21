@@ -26,7 +26,7 @@ When a verified release is available:
 1. Download its DMG and SHA-256 checksum.
 2. Open the DMG and drag **Kinetik Triage** to **Applications**.
 3. Open the app and confirm the version/build in **Kinetik Triage → About Kinetik Triage**.
-4. Click **Help**, choose a case under **Needs a decision**, read the evidence, and write your reason.
+4. Click **Help**, choose a case under **Awaiting review**, read the evidence, and write your reason.
 5. Record a local decision, then open **Analytics → Export JSON and Markdown**.
 
 No developer tools, GitHub token, or account signup are needed. If macOS rejects the package, stop and report the message; do not disable Gatekeeper. See the [full guide](USER_GUIDE.md) for screenshots and troubleshooting.

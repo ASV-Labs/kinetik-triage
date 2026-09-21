@@ -10,7 +10,7 @@ Updated 21 September 2026.
 | --- | --- |
 | App | Kinetik Triage |
 | Version / build | 0.9.6 / 5 |
-| Source revision | `2457ca87a59b0899a7eddb42219385361045326f` |
+| Source revision | `e3163b342b0de476da84da4d38b849ffb7c2574a` |
 | Architecture | arm64 (Apple silicon) |
 | Minimum OS | macOS 13.0, as declared by the packaged app |
 | Build metadata | Clean source tree; built 21 September 2026 |
@@ -27,7 +27,7 @@ Updated 21 September 2026.
 - All 27 desktop source tests pass (session rules, corpus handling, process bridge and URL policy).
 - Signed package launches on the MacBook and loads real public P0GL0L data.
 - Existing local review state restores; a fresh local decision can be recorded and exported.
-- The packaged build manifest identifies source `2457ca87a59b`; clicking Source opens the correct GitHub PR in the default browser.
+- The packaged build manifest identifies source `e3163b342b0d`. Source handoff was verified during the preceding 0.9.5 audit; that implementation is unchanged.
 - Signed application Analytics export succeeds with 12 cases and the persisted local decision.
 - Bundled Help opens the 0.9.6/build 5 guide.
 - Existing session/corpus/bridge tests plus seven Library regressions cover decision versioning, persistence, refresh gaps, restoration, write-failure rollback and selection. The earlier 0.9.5 packaged backend matrix remains separate evidence.
@@ -45,7 +45,7 @@ The 0.9.6 UI check loaded 12 public cases and exported the report after a local 
 
 The signed but unnotarized candidate is intentionally not presented as a normal public download. The checksum below identifies the current internal candidate and will change after stapling/repackaging:
 
-`5c80ebddf1886a96f335d09eb1ab92d185fe8bf9a2e7ef5ffb4c09e404dd5bb5`
+`804664d629e4f318836fe3bdc293fc7010bd4af46b272897afef7e05d93d4b23`
 
 ## Alpha limitations
 

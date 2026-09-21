@@ -30,7 +30,7 @@ If another version is already running, quit it before opening the new one. Openi
 
 ### 1. Find a case
 
-Wait for the public queue to load. Select an item under **Needs a decision**. If that group is empty, the current public activity may have no actionable items. You can still inspect informational and recent activity; there is nothing you must approve just to finish onboarding.
+Wait for the public queue to load. Select an item under **Awaiting review**. If that group is empty, the current public activity may have no actionable items. You can still inspect informational and recent activity; there is nothing you must approve just to finish onboarding.
 
 ![Queue groups and case details in the preceding 0.9.4 UI](docs/images/01-queue-overview.png)
 
@@ -38,17 +38,17 @@ The screenshots illustrate the 0.9.4 workflow. Build 5 retains this layout and a
 
 | Queue group | Meaning |
 | --- | --- |
-| Needs a decision | An open change or issue eligible for a local review |
-| Informational | Context with no decision requested |
-| Recent activity | Closed or merged items, shown as history |
-| Decided locally | A decision saved for the current assessment |
-| Re-review required | The item or recommendation changed since your decision |
+| Awaiting review | An open change or issue eligible for a local review |
+| For reference | Context with no decision requested |
+| Completed on GitHub | Closed or merged items, shown as history |
+| Reviewed | A decision saved for the current assessment |
+| Updated since review | The item or recommendation changed since your decision |
 
 ### 2. Read the evidence
 
 Read the recommendation, risk band, coverage, and reason for the recommendation. **Risk is a rule-based review signal, not proof that a change is safe or unsafe.** Coverage says how much of the file list was available. Partial or unavailable coverage means information is missing.
 
-Select the **Source** link to inspect the public item on GitHub in your browser. Open **Show files**, **Rules**, and **Details** for supporting context. Repository rows provide background; they do not offer a decision form.
+Select the **Source** link to inspect the public item on GitHub in your browser. Open **Evidence**, **Assessment rules**, and **Review details** for supporting context. Repository rows provide background; they do not offer a decision form.
 
 ![Recommendation, coverage, and decision controls](docs/images/02-case-summary-and-actions.png)
 
@@ -66,7 +66,7 @@ All three save a note only on this Mac. They are not GitHub approvals or instruc
 
 ### 4. Confirm it saved
 
-A panel shows the recorded outcome and your reason. The case moves to **Decided locally**. Quit and reopen the app to return to your saved review state.
+A panel shows the recorded outcome and your reason. The case moves to **Reviewed**. Quit and reopen the app to return to your saved review state.
 
 ![A locally recorded outcome](docs/images/04-decision-recorded.png)
 
@@ -100,11 +100,11 @@ GitHub limits unauthenticated API requests by public IP address. The app shows t
 | Refresh | ⌘R |
 | Export analytics | ⌘E |
 | Next / previous case | ⌘↓ / ⌘↑ |
-| Show / hide queue | ⌘\\ or Hide queue |
+| Show / hide list | ⌘\\ or Hide list |
 | Zoom text | View → Zoom In / Zoom Out |
 | Quit | ⌘Q |
 
-Use Tab to move between controls and Return or Space to activate buttons. The window can be resized; Hide queue gives the selected case more room.
+Use Tab to move between controls and Return or Space to activate buttons. The window can be resized; Hide list gives the selected case more room.
 
 ## Privacy and local files
 
@@ -122,7 +122,7 @@ These live under `~/Library/Application Support/Kinetik Triage/`. They are ordin
 
 | Problem | What to do |
 | --- | --- |
-| No actionable cases | Review Informational/Recent activity; current data may have no pending decisions |
+| No actionable cases | Review For reference/Completed on GitHub; current data may have no pending decisions |
 | Empty queue with an error | Check your network and rate limit, then Retry |
 | Last saved queue | Read the timestamp; Refresh when GitHub is available |
 | Short reason rejected | Write at least 12 characters specific to this case |
