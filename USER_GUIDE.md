@@ -21,7 +21,7 @@ You need an Apple silicon Mac running macOS 13 or later and an internet connecti
 1. Download the DMG and checksum from the same release.
 2. Open the DMG and drag **Kinetik Triage** to **Applications**.
 3. Open **Applications → Kinetik Triage**. If macOS cannot verify the app, stop and [report the problem](https://github.com/ASV-Labs/kinetik-triage/issues). Do not disable Gatekeeper.
-4. Open **Kinetik Triage → About Kinetik Triage** and confirm **0.9.6**, build **4**.
+4. Open **Kinetik Triage → About Kinetik Triage** and confirm **0.9.6**, build **5**.
 5. Click **Help** in the window, or **Help → User Guide** (⌘/), to open this guide beside the app.
 
 If another version is already running, quit it before opening the new one. Opening this app twice focuses the existing review window.
@@ -32,9 +32,9 @@ If another version is already running, quit it before opening the new one. Openi
 
 Wait for the public queue to load. Select an item under **Awaiting review**. If that group is empty, the current public activity may have no actionable items. You can still inspect informational and recent activity; there is nothing you must approve just to finish onboarding.
 
-![Queue groups and case details in the preceding 0.9.4 UI](docs/images/01-queue-overview.png)
+![Kinetik 0.9.6 reading workspace with evidence and rationale side by side](docs/images/07-reading-096.jpg)
 
-The screenshots illustrate the 0.9.4 workflow. Build 5 retains this layout and adds clickable source links, stronger contrast, and larger controls; the running app is authoritative for those details.
+The reading-workspace image above and Library image below were captured from 0.9.6/build 5. The other walkthrough images show the preceding 0.9.4 workflow; they predate the new layout and Library. Use the current button names in these instructions.
 
 | Queue group | Meaning |
 | --- | --- |
@@ -153,3 +153,5 @@ Use **Archive** below a case in the left list to move it out of Queue and into *
 Archived cases remain included in Analytics; deleted cases are excluded. The report lists both totals. Only active Queue cases contribute to “awaiting review.” Cases must be restored before you can record a new decision. Refreshing or restarting does not undo your organization choices. Library retains the saved case if it falls outside the current GitHub activity window; restore keeps that snapshot in Queue across refreshes and restarts. A “Saved case” notice identifies unavailable current evidence, and new decisions are blocked until the case returns in a successful refresh.
 
 The reading pane uses two columns in a wide window: evidence on the left and your rationale or recorded decision on the right. In a narrower window the sections stack. The top status labels have matching heights, and the Kinetik logo identifies the app. Technical source and scoring-version metadata is available in the header tooltip; the visible account label uses plain language.
+
+![Kinetik 0.9.6 Library showing an archived case with Restore and Delete controls](docs/images/08-library-096.jpg)

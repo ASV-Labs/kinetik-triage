@@ -1,13 +1,13 @@
 {
   "version": "0.9.6",
   "build": "5",
-  "commit": "e3163b342b0de476da84da4d38b849ffb7c2574a",
+  "commit": "f1e07f46c8c41772ebd1e72d903e712c0883498f",
   "dirty": false,
-  "builtAt": "2026-09-21T18:23:18.021Z",
+  "builtAt": "2026-09-21T18:26:24.538Z",
   "architecture": "arm64",
   "file": "Kinetik.Triage-0.9.6-arm64.dmg",
-  "sha256": "804664d629e4f318836fe3bdc293fc7010bd4af46b272897afef7e05d93d4b23",
-  "asarSha256": "854440746aed1ea91889a6011b9aac66b3704997f744d5462ba5e94afe0cd153",
+  "sha256": "a3d3c05dd14f8c2e9d62f297e942b6460d7b08d8ac27862edb8d9189467434b2",
+  "asarSha256": "97816f4557c412fbe7bccbcf712fe768a7f75f9c38b57af4ba625dce693e177d",
   "minimumMacOS": "13.0",
   "signature": "Developer ID; deep/strict verification passed",
   "notarization": "pending",
@@ -22,5 +22,5 @@
     "Wide and zoomed stacked reading layouts"
   ],
   "nativeWorkflowRevision": "2457ca87a59b0899a7eddb42219385361045326f",
-  "finalChange": "Bundled guide label alignment only; application code unchanged."
+  "finalChange": "Guide label alignment and current reading/Library screenshots only; application code unchanged."
 }
