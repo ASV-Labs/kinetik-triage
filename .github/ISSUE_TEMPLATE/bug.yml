@@ -1,0 +1,38 @@
+name: Bug report
+description: Tell us what failed in the desktop alpha.
+title: '[Bug] '
+body:
+  - type: markdown
+    attributes:
+      value: 'This report is public. Remove secrets and personal information from text and attachments.'
+  - type: input
+    id: version
+    attributes:
+      label: App version and build
+      description: Find these in Kinetik Triage → About Kinetik Triage.
+    validations:
+      required: true
+  - type: input
+    id: system
+    attributes:
+      label: macOS version and Mac model
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior and exact error
+    validations:
+      required: true

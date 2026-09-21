@@ -1,0 +1,16 @@
+name: Improvement request
+description: Describe a problem Kinetik could solve better.
+title: '[Idea] '
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What are you trying to do?
+    validations:
+      required: true
+  - type: textarea
+    id: improvement
+    attributes:
+      label: What would improve that experience?
+    validations:
+      required: true
