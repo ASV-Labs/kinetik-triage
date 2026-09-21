@@ -5,7 +5,7 @@
   "dirty": false,
   "builtAt": "2026-09-21T18:01:30.889Z",
   "architecture": "arm64",
-  "file": "Kinetik Triage-0.9.5-arm64.dmg",
+  "file": "Kinetik.Triage-0.9.5-arm64.dmg",
   "sha256": "e7175065594164b72b3f40500c35d4bf44c9d910bac330eba143fa5b4c7f7b8f",
   "asarSha256": "be58e18e83ab7052501e5d6c5d01973d340f060ee6bee3c6384940793b4eb20d",
   "minimumMacOS": "13.0",
