@@ -168,7 +168,7 @@
         "precise",
         "trustworthy"
       ],
-      "intent": "Explain the Kinetik desktop alpha through its public-change review workflow and help a visitor safely try it",
+      "intent": "Understand Kinetik Triage and apply by email for its invitation-only Mac alpha",
       "commercial_intent": null
     },
     "match": "ok",
@@ -409,6 +409,27 @@
     ],
     "recommended_patterns": [
       {
+        "id": "pattern.ledger-design.contextual-tab-set-financial-table",
+        "name": "Contextual Tab Set for Financial Tables",
+        "category": "ledger-design",
+        "summary": "In any financial console where the operator may have a subset of available products active, gate tab visibility on product enablement rather than showing empty states. This is especially important in multi-product platforms where showing all tabs always implies the user should be using all products.",
+        "exemplars": [
+          "reference.dashboard.stripe"
+        ],
+        "retrieval_tags": [
+          "contextual",
+          "dashboard",
+          "financial",
+          "fintech",
+          "for",
+          "ledger-design",
+          "payments",
+          "set",
+          "tab",
+          "tables"
+        ]
+      },
+      {
         "id": "pattern.form-input-experience.one-question-per-page-service-flow",
         "name": "One Question Per Page Service Flow",
         "category": "form-input-experience",
@@ -467,27 +488,6 @@
           "portfolio",
           "preview",
           "wipe-transition"
-        ]
-      },
-      {
-        "id": "pattern.ledger-design.contextual-tab-set-financial-table",
-        "name": "Contextual Tab Set for Financial Tables",
-        "category": "ledger-design",
-        "summary": "In any financial console where the operator may have a subset of available products active, gate tab visibility on product enablement rather than showing empty states. This is especially important in multi-product platforms where showing all tabs always implies the user should be using all products.",
-        "exemplars": [
-          "reference.dashboard.stripe"
-        ],
-        "retrieval_tags": [
-          "contextual",
-          "dashboard",
-          "financial",
-          "fintech",
-          "for",
-          "ledger-design",
-          "payments",
-          "set",
-          "tab",
-          "tables"
         ]
       },
       {
@@ -718,7 +718,7 @@
         "precise",
         "trustworthy"
       ],
-      "primary_intent": "Explain the Kinetik desktop alpha through its public-change review workflow and help a visitor safely try it",
+      "primary_intent": "Understand Kinetik Triage and apply by email for its invitation-only Mac alpha",
       "commercial_intent": "",
       "style_atlas_match": "SaaS or Technical Product",
       "selected_composition": "product-walkthrough",
@@ -730,16 +730,16 @@
       ],
       "borrow_these_moves": [
         {
+          "id": "pattern.ledger-design.contextual-tab-set-financial-table",
+          "name": "Contextual Tab Set for Financial Tables"
+        },
+        {
           "id": "pattern.form-input-experience.one-question-per-page-service-flow",
           "name": "One Question Per Page Service Flow"
         },
         {
           "id": "pattern.health-status-signaling.semantic-badge-taxonomy",
           "name": "Semantic Badge Taxonomy"
-        },
-        {
-          "id": "pattern.interaction-affordance.cursor-anchored-preview-expand",
-          "name": "Cursor-Anchored Preview Expand"
         }
       ],
       "study_these_sites": [

@@ -1,8 +1,8 @@
 # Alpha release status
 
-Updated 21 September 2026.
+Updated 22 September 2026.
 
-**Public website and documentation: available. Public Mac download: pending Apple notarization.**
+**Public documentation: available. Private-alpha email application flow: being staged. Mac package: invitation-only candidate; notarization and final installation checks pending.**
 
 ## Current candidate
 
@@ -16,7 +16,7 @@ Updated 21 September 2026.
 | Build metadata | Clean source tree; built 21 September 2026 |
 | App signature | Developer ID; hardened runtime; deep/strict verification passes |
 | Notarization | Pending |
-| Distribution | Draft candidate; not a notarized public release |
+| Distribution | Privately staged candidate; not approved for tester distribution |
 
 ## Verification performed
 
@@ -36,14 +36,14 @@ Updated 21 September 2026.
 
 The 0.9.6 UI check loaded 12 public cases and exported the report after a local decision was archived. Earlier 0.9.5 performance observations are not a benchmark for this build.
 
-## What remains before the public DMG
+## What remains before invited testers receive the DMG
 
 1. Supply Apple notarization credentials locally to the authorized build operator.
 2. Submit the exact candidate, obtain Accepted status, staple the app and rebuilt DMG, and verify Gatekeeper acceptance.
 3. Test the final downloaded, quarantined package on a clean user account/Mac; verify guide/build identity and first-use flow.
-4. Publish the final notarized assets, their new checksums, and the final manifest. Mark that GitHub release as a prerelease.
+4. Stage the final notarized assets, regenerated checksums and manifest in private storage. Share only with approved testers. Keep public-repository releases in draft; do not use a public GitHub release as an invitation gate.
 
-The signed but unnotarized candidate is intentionally not presented as a normal public download. The checksum below identifies the current internal candidate and will change after stapling/repackaging:
+The signed but unnotarized candidate is intentionally not presented as a verified tester download. The checksum below identifies the current internal candidate and will change after stapling/repackaging:
 
 `a3d3c05dd14f8c2e9d62f297e942b6460d7b08d8ac27862edb8d9189467434b2`
 

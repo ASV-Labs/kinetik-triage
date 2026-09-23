@@ -1,16 +1,14 @@
 {
-  "build_dir": "/Users/charlesbonetti/Documents/ASV Business Venture/kinetik-alpha-public/site",
-  "pages": [
-    "index.html"
-  ],
+  "build_dir": "site",
+  "pages": [],
   "mode": "static-heuristics (no rendering; necessary, never sufficient)",
   "findings": [
     {
-      "level": "INFO",
-      "flag": "CARDS",
-      "where": "index.html",
-      "msg": "html > body > main > section.decide-section > button ×3: card-like sibling group (counts against budget)"
+      "level": "HARD-FAIL",
+      "flag": "USAGE",
+      "where": "site",
+      "msg": "build directory not found"
     }
   ],
-  "exit": 0
+  "exit": 2
 }

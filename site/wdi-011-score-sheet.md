@@ -34,3 +34,11 @@ Interaction checks: blank and short rationale errors; Approve, Reject, Defer out
 Limitations: this is an internal design review, not an independent usability study or formal WCAG certification. Full VoiceOver reading and usability with first-time external customers remain follow-up work.
 
 Detector disposition: the heuristic labels the three action buttons a card-like group. These are semantic controls within one form, not three independent content cards; zero equal-card content sections remains the reviewed count.
+
+## 22 September staging review — index.html
+
+The existing composition remains visually passing at the same 4.15/5.0 score after the private-alpha copy/navigation changes. Re-inspected desktop 1440×1000, tablet 834×1112 and mobile 390×844 in the Codex in-app browser. Application section has no horizontal overflow at those widths. Reviewed three distinct crops: hero, decision workbench, application section. The new access/update disclosures open; the existing blank-rationale error, valid Defer outcome and reset work; no browser warning/error logs observed. The app-scope/guide/update text is consistent with the inspected desktop source.
+
+**Functional release status: HOLD.** The application mailbox has not yet been supplied. The staging page deliberately shows a configuration-pending notice and cannot accept applications. No mailto, inbox receipt, external invitation, hosted private download, or live deployment is claimed. Complete recipient configuration and recheck the primary action before publishing. The composition score and structural verification are not release approval.
+
+interchangeability=PASS; screenshot=PASS; explanation=PASS

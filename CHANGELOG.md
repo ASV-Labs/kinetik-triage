@@ -19,7 +19,7 @@
 - Find public support and privacy information from the app and illustrated guide.
 - Follow a clearer installation and first-review guide with explicit pilot limitations.
 
-Public package publication remains subject to notarization and final release verification. See RELEASE_STATUS.md.
+Private tester distribution remains subject to notarization and final release verification. See RELEASE_STATUS.md.
 
 ## Earlier alpha work
 
