@@ -1,6 +1,6 @@
 # Privacy notice
 
-Last updated: 21 September 2026. Applies to Kinetik Triage 0.9.5/build 4 and this alpha website.
+Last updated: 22 September 2026. Applies to Kinetik Triage 0.9.6/build 5 and this alpha website.
 
 ## Desktop app
 
@@ -17,6 +17,10 @@ Exporting writes files locally. If you choose to attach a report or screenshot t
 ## Website
 
 The landing page has no analytics script, advertising pixels, cookies, account system, or form-submission backend. Its interactive example stays in the page's memory and is cleared by reset or navigation. GitHub Pages serves the site and may process connection information according to GitHub's policies. External links take you to their respective services.
+
+## Alpha applications by email
+
+Applications go to the published ASV Labs business inbox, **SaltyEngineer@ASVLabs.com**. The application link opens an email draft; it does not submit a website form or grant access. You choose whether to send it. ASV Labs receives the information you include and uses it to review your application, reply about participation, and support invited testing. Your email provider and our mailbox provider handle the message. We do not add applicants to a marketing list through this flow. Please send only your name, Mac model/macOS version and testing interests; do not include credentials, private code or confidential reports. You can reply to the application conversation to withdraw your application or request deletion of its information.
 
 ## Questions
 

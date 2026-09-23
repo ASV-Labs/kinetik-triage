@@ -34,3 +34,13 @@ Interaction checks: blank and short rationale errors; Approve, Reject, Defer out
 Limitations: this is an internal design review, not an independent usability study or formal WCAG certification. Full VoiceOver reading and usability with first-time external customers remain follow-up work.
 
 Detector disposition: the heuristic labels the three action buttons a card-like group. These are semantic controls within one form, not three independent content cards; zero equal-card content sections remains the reviewed count.
+
+## 22 September staging review — index.html
+
+The existing composition remains visually passing at the same 4.15/5.0 score after the private-alpha copy/navigation changes. Re-inspected desktop 1440×1000, tablet 834×1112 and mobile 390×844 in the Codex in-app browser. Application section has no horizontal overflow at those widths. Reviewed three distinct crops: hero, decision workbench, application section. The new access/update disclosures open; the existing blank-rationale error, valid Defer outcome and reset work; no browser warning/error logs observed. The app-scope/guide/update text is consistent with the inspected desktop source.
+
+**Configuration hold resolved.** The recipient was verified against the official ASV Labs contact page: SaltyEngineer@ASVLabs.com. The completed application section was re-inspected at all three required sizes; no horizontal overflow, the primary action is 50px tall and the visible email fallback is 44px tall on mobile. Decoded mailto recipient, subject and body match the intended application. The page clearly says to review and send the draft and does not pretend to submit or grant access. No application email was sent; external mail-client dispatch and inbox receipt are not claimed. The notarized installer remains privately staged.
+
+The existing visual score and all authorship results above remain supported after the final email and notarization copy changes. Structural verification is separate from Apple acceptance, delivery and customer usability.
+
+interchangeability=PASS; screenshot=PASS; explanation=PASS

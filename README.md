@@ -15,21 +15,25 @@ Kinetik is a Mac app that helps you understand software changes before they affe
 3. **Organize your queue.** Archive cases for later or move them to Deleted. Open Library to browse and restore either collection.
 4. **Keep the trail.** Reopen saved decisions, see when an assessment needs a fresh review, and export Analytics & Metrics as JSON and Markdown.
 
-## Try the alpha
+## Apply for the private alpha
 
 **Candidate:** 0.9.6 / build 5 · Apple silicon · macOS 13 or later.
 
-The public DMG is being prepared. Developer ID signing is available; Apple notarization remains pending. Check [Releases](https://github.com/ASV-Labs/kinetik-triage/releases) for an explicitly published, verified package before installing. A draft or missing download means the package is not released.
+[Apply by email](https://asv-labs.github.io/kinetik-triage/#alpha). We review applications personally. Applying does not grant access or guarantee an invitation. Approved testers receive private installation instructions and the illustrated guide when the package has passed its release checks. No payment is required to apply.
 
-When a verified release is available:
+The corrected app and installer are notarized and stapled; Gatekeeper accepts the app. The candidate is staged privately. There is no public Mac download. Draft releases are internal staging records, not tester download links.
 
-1. Download its DMG and SHA-256 checksum.
+The app has no account login, license enforcement or automatic updater. Invitations control distribution; invited testers should not redistribute the package. A Git commit does not update an installed desktop copy. New verified builds and release notes are supplied to approved testers.
+
+After receiving a verified invitation package:
+
+1. Verify its version and SHA-256 checksum against the invitation.
 2. Open the DMG and drag **Kinetik Triage** to **Applications**.
-3. Open the app and confirm the version/build in **Kinetik Triage → About Kinetik Triage**.
+3. Confirm the version/build in **Kinetik Triage → About Kinetik Triage**.
 4. Click **Help**, choose a case under **Awaiting review**, read the evidence, and write your reason.
 5. Record a local decision, then open **Analytics → Export JSON and Markdown**.
 
-No developer tools, GitHub token, or account signup are needed. If macOS rejects the package, stop and report the message; do not disable Gatekeeper. See the [full guide](USER_GUIDE.md) for screenshots and troubleshooting.
+No developer tools or GitHub token are needed. If macOS rejects the package, stop and report the message; do not disable Gatekeeper. Read the [full guide](USER_GUIDE.md) before starting.
 
 ## Know the scope
 
@@ -53,7 +57,7 @@ Open a [bug report or feature request](https://github.com/ASV-Labs/kinetik-triag
 
 ## About this repository
 
-This is the public alpha distribution and documentation repository. It contains the website, guide, release information, and feedback templates. The desktop application source and private development history are maintained separately. Public availability is not an open-source license; see [LICENSE](LICENSE).
+This is the public documentation and application website repository. It contains the website, guide, release information, and feedback templates. The desktop application source and private development history are maintained separately. Public availability is not an open-source license; see [LICENSE](LICENSE).
 
 ### Repository map
 
