@@ -1,14 +1,16 @@
 {
   "build_dir": "site",
-  "pages": [],
+  "pages": [
+    "index.html"
+  ],
   "mode": "static-heuristics (no rendering; necessary, never sufficient)",
   "findings": [
     {
-      "level": "HARD-FAIL",
-      "flag": "USAGE",
-      "where": "site",
-      "msg": "build directory not found"
+      "level": "INFO",
+      "flag": "CARDS",
+      "where": "index.html",
+      "msg": "html > body > main > section.decide-section > button ×3: card-like sibling group (counts against budget)"
     }
   ],
-  "exit": 2
+  "exit": 0
 }
