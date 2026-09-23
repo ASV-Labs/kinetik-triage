@@ -25,7 +25,28 @@
     "Cursor Mac smoke: About reports 0.9.6 / build 5 / 499b9d62d31f",
     "Cursor Mac smoke: bundled invitation-only Help opens",
     "Cursor Mac smoke: isolated-data live Queue load and clean quit",
-    "DMG-mounted app Gatekeeper accepted (Cursor verification)"
+    "DMG-mounted app Gatekeeper accepted (Cursor verification)",
+    "Final isolated-data live Queue: 13 public cases; one local Defer recorded",
+    "Analytics JSON/Markdown exported and independently inspected",
+    "Cursor UI relaunch: Defer and rationale persist; clean quit"
   ],
-  "nativeWorkflowRevision": "499b9d62d31f4692390184852b68122e27e9db8d"
+  "nativeWorkflowRevision": "499b9d62d31f4692390184852b68122e27e9db8d",
+  "runtimeSample": {
+    "source": "github-public-live",
+    "casesIngested": 13,
+    "decisions": {
+      "approve": 0,
+      "reject": 0,
+      "defer": 1
+    },
+    "githubFetchMs": 1405,
+    "scoreMs": 7,
+    "rssBytes": 114475008,
+    "corpusCoverage": "partial; GitHub public rate limit reached"
+  },
+  "limits": [
+    "First-user/clean-account install not performed",
+    "No login/license enforcement or automatic updater",
+    "Email inbox receipt not tested"
+  ]
 }
