@@ -20,7 +20,7 @@ The landing page has no analytics script, advertising pixels, cookies, account s
 
 ## Alpha applications by email
 
-The application link opens an email draft; it does not submit a website form or grant access. You choose whether to send it. ASV Labs receives the information you include and uses it to review your application, reply about participation, and support invited testing. Your email provider and our mailbox provider handle the message. We do not add applicants to a marketing list through this flow. Please send only your name, Mac model/macOS version and testing interests; do not include credentials, private code or confidential reports. You can reply to the application conversation to withdraw your application or request deletion of its information.
+Applications go to the published ASV Labs business inbox, **SaltyEngineer@ASVLabs.com**. The application link opens an email draft; it does not submit a website form or grant access. You choose whether to send it. ASV Labs receives the information you include and uses it to review your application, reply about participation, and support invited testing. Your email provider and our mailbox provider handle the message. We do not add applicants to a marketing list through this flow. Please send only your name, Mac model/macOS version and testing interests; do not include credentials, private code or confidential reports. You can reply to the application conversation to withdraw your application or request deletion of its information.
 
 ## Questions
 

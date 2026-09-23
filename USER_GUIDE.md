@@ -1,6 +1,6 @@
 # Kinetik Triage — alpha user guide
 
-**For version 0.9.6 · build 5 · Apple silicon Mac.** Confirm these in **Kinetik Triage → About Kinetik Triage**. About also shows the source revision; the release manifest identifies the exact package.
+**For version 0.9.6 · build 5 · Apple silicon Mac.** Confirm these in **Kinetik Triage → About Kinetik Triage**. About also shows the source revision; your invitation package identifies the exact private DMG.
 
 ## What Kinetik does
 
@@ -10,16 +10,23 @@ This alpha is a **guided public-data pilot**. It reads public activity for **P0G
 
 ## Before you install
 
-Use the private package and release notes supplied in your invitation from ASV Labs. They must identify the SHA-256 checksum, version, build, minimum macOS version and notarization status. A checksum verifies a downloaded file matches the listed file; it does not replace macOS security checks.
+This alpha is **invitation-only**. After email application approval, ASV Labs sends approved testers a **private DMG with a matching checksum and release notes**. There is **no public download** of the alpha binary (including from GitHub Releases).
 
-The 0.9.6/build 5 candidate is Developer ID signed. Tester distribution depends on Apple notarization and final package verification. [Apply by email](https://asv-labs.github.io/kinetik-triage/#alpha) for an invitation; applying is not approval. No public download is offered. Do not use an old sandbox package as a substitute.
+To request access (application only — not a download): [Apply for the alpha](https://asv-labs.github.io/kinetik-triage/#alpha).
+
+- **Invitations control distribution.** Only approved testers receive the package.
+- The app has **no login or license enforcement** — possession of the invited package is the access control.
+- **Do not redistribute** the DMG or the installed app.
+- There is **no automatic updater**. When ASV Labs sends a verified replacement build, **quit the app and back up your local data** before replacing the application.
+
+Verify the DMG against the checksum in your invitation materials before opening it. A checksum confirms the file matches what ASV Labs sent; it does not replace macOS security checks.
 
 You need an Apple silicon Mac running macOS 13 or later and an internet connection for fresh GitHub data. Intel Macs, Windows, and Linux are not supported packages in this alpha. You do not need Node.js, a GitHub account, or a GitHub token to use the packaged app.
 
 ## Install and start
 
-1. Download the DMG and matching checksum supplied in your invitation.
-2. Open the DMG and drag **Kinetik Triage** to **Applications**.
+1. Open the private DMG from your invitation package (after verifying the checksum).
+2. Drag **Kinetik Triage** to **Applications**.
 3. Open **Applications → Kinetik Triage**. If macOS cannot verify the app, stop and [report the problem](https://github.com/ASV-Labs/kinetik-triage/issues). Do not disable Gatekeeper.
 4. Open **Kinetik Triage → About Kinetik Triage** and confirm **0.9.6**, build **5**.
 5. Click **Help** in the window, or **Help → User Guide** (⌘/), to open this guide beside the app.
@@ -155,7 +162,3 @@ Archived cases remain included in Analytics; deleted cases are excluded. The rep
 The reading pane uses two columns in a wide window: evidence on the left and your rationale or recorded decision on the right. In a narrower window the sections stack. The top status labels have matching heights, and the Kinetik logo identifies the app. Technical source and scoring-version metadata is available in the header tooltip; the visible account label uses plain language.
 
 ![Kinetik 0.9.6 Library showing an archived case with Restore and Delete controls](docs/images/08-library-096.jpg)
-
-## Private-alpha access and updates
-
-Invitations control who receives the package. This desktop pilot does not include account login or license enforcement; do not redistribute an invited build. There is no automatic updater. ASV Labs supplies new verified builds with release notes to approved testers. Before replacing the app, quit it and back up your local Kinetik data. Replace the app in Applications, then confirm the new version/build in About and reopen the illustrated guide. Updating source code on GitHub does not change the installed copy.

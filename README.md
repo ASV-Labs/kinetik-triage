@@ -21,7 +21,7 @@ Kinetik is a Mac app that helps you understand software changes before they affe
 
 [Apply by email](https://asv-labs.github.io/kinetik-triage/#alpha). We review applications personally. Applying does not grant access or guarantee an invitation. Approved testers receive private installation instructions and the illustrated guide when the package has passed its release checks. No payment is required to apply.
 
-The signed candidate is staged. Apple notarization and final installation verification remain pending. There is no public Mac download. Draft releases are internal staging records, not tester download links.
+The corrected app and installer are notarized and stapled; Gatekeeper accepts the app. The candidate is staged privately. There is no public Mac download. Draft releases are internal staging records, not tester download links.
 
 The app has no account login, license enforcement or automatic updater. Invitations control distribution; invited testers should not redistribute the package. A Git commit does not update an installed desktop copy. New verified builds and release notes are supplied to approved testers.
 

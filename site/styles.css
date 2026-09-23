@@ -4,4 +4,4 @@
 @media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;transition:none!important;animation:none!important}}
 .scope-line a,details p a{display:inline-flex;align-items:center;min-height:44px;min-width:44px;padding:0 2px}
 
-.application-steps{padding-left:1.25rem;font-size:14px;color:#4b5666;max-width:42ch}.application-steps li{padding-left:.3rem;margin:0 0 .7rem}.application-address{overflow-wrap:anywhere}.application-address a{display:inline-flex;align-items:center;min-height:44px}.application-pending{border-left:2px solid var(--blue);padding-left:16px}
+.application-steps{padding-left:1.25rem;font-size:14px;color:#4b5666;max-width:42ch}.application-steps li{padding-left:.3rem;margin:0 0 .7rem}.application-address{overflow-wrap:anywhere}.application-address a{display:inline-flex;align-items:center;min-height:44px}

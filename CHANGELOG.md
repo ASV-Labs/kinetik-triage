@@ -1,6 +1,8 @@
 # Changelog
 
-## 0.9.6 — build 5 (release candidate)
+## 0.9.6 — build 5 (private alpha candidate)
+
+22 September packaging update: About now derives its build number from generated metadata; bundled guide describes invitation-only distribution and manual updates. Corrected app and DMG are notarized and stapled. No public installer has been published.
 
 - Use a full-width reading workspace with evidence and rationale side by side on wide windows.
 - Organize cases with Archive, Delete and Restore in the new Library. Local decisions and history are preserved.

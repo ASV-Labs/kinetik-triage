@@ -1,26 +1,31 @@
 {
   "version": "0.9.6",
   "build": "5",
-  "commit": "f1e07f46c8c41772ebd1e72d903e712c0883498f",
+  "commit": "499b9d62d31f4692390184852b68122e27e9db8d",
   "dirty": false,
-  "builtAt": "2026-09-21T18:26:24.538Z",
+  "builtAt": "2026-09-23T02:47:52.229Z",
   "architecture": "arm64",
   "file": "Kinetik.Triage-0.9.6-arm64.dmg",
-  "sha256": "a3d3c05dd14f8c2e9d62f297e942b6460d7b08d8ac27862edb8d9189467434b2",
-  "asarSha256": "97816f4557c412fbe7bccbcf712fe768a7f75f9c38b57af4ba625dce693e177d",
+  "sha256": "2bbbea50aad96816dbd0ebad8ceef6dbbe4205a59363cf3790b67038461d788c",
   "minimumMacOS": "13.0",
   "signature": "Developer ID; deep/strict verification passed",
-  "notarization": "pending",
-  "releaseStatus": "draft candidate",
-  "tests": "27 tests passed; typecheck passed",
+  "notarization": "Accepted: app and DMG",
+  "releaseStatus": "notarized private staging candidate; email application page configured",
+  "tests": "27 desktop tests and desktop typecheck passed on 499b9d6",
+  "finalChange": "About build metadata and invitation-only guide fixes; notarization helper committed for reproducible packaging.",
+  "previousNativeChecks": "Prior 0.9.6 candidate evidence remains in release history; not claimed as final corrected-package verification.",
+  "asarSha256": "0e6130dcb1d502ce554d989d5afc84341728d233e4543574f72778d3baafe052",
+  "notarySubmissions": {
+    "app": "6e145d4d-1bd2-4a12-b53a-68ce9e813b80",
+    "dmg": "257a9328-97dc-4941-a073-bdca40bbedc7"
+  },
+  "stapling": "app and DMG validated",
+  "gatekeeper": "app accepted: Notarized Developer ID",
   "nativeChecks": [
-    "Archive/Delete/Restore",
-    "Deleted persistence after restart",
-    "Unrelated-row selection preservation",
-    "Recorded decision retained after archive",
-    "Analytics export with archived/deleted counts",
-    "Wide and zoomed stacked reading layouts"
+    "Cursor Mac smoke: About reports 0.9.6 / build 5 / 499b9d62d31f",
+    "Cursor Mac smoke: bundled invitation-only Help opens",
+    "Cursor Mac smoke: isolated-data live Queue load and clean quit",
+    "DMG-mounted app Gatekeeper accepted (Cursor verification)"
   ],
-  "nativeWorkflowRevision": "2457ca87a59b0899a7eddb42219385361045326f",
-  "finalChange": "Guide label alignment and current reading/Library screenshots only; application code unchanged."
+  "nativeWorkflowRevision": "499b9d62d31f4692390184852b68122e27e9db8d"
 }

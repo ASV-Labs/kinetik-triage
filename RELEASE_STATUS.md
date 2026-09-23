@@ -2,7 +2,7 @@
 
 Updated 22 September 2026.
 
-**Public documentation: available. Private-alpha email application flow: being staged. Mac package: invitation-only candidate; notarization and final installation checks pending.**
+**Public documentation: available. Private-alpha email applications: configured for the published ASV Labs business inbox. Mac package: notarized and stapled, staged for invitation-only testing.**
 
 ## Current candidate
 
@@ -10,15 +10,21 @@ Updated 22 September 2026.
 | --- | --- |
 | App | Kinetik Triage |
 | Version / build | 0.9.6 / 5 |
-| Source revision | `f1e07f46c8c41772ebd1e72d903e712c0883498f` |
+| Source revision | `499b9d62d31f4692390184852b68122e27e9db8d` |
 | Architecture | arm64 (Apple silicon) |
 | Minimum OS | macOS 13.0, as declared by the packaged app |
-| Build metadata | Clean source tree; built 21 September 2026 |
+| Build metadata | Corrected source; signed candidate built 22 September 2026 |
 | App signature | Developer ID; hardened runtime; deep/strict verification passes |
-| Notarization | Pending |
-| Distribution | Privately staged candidate; not approved for tester distribution |
+| Notarization | Accepted for app and DMG; both stapled and validated |
+| Distribution | Notarized private staging candidate; email applications configured |
 
-## Verification performed
+## Verification of the corrected candidate
+
+The About panel now derives its build number from the same generated metadata as the package. Bundled installation instructions now describe private invitations and manual updates. All 27 desktop source tests and desktop TypeScript checks were independently rerun and pass. The freshly built app passes Developer ID deep/strict signature verification and its Info.plist reports 0.9.6/build 5. Apple accepted the app and DMG submissions; both stapling validations pass. Gatekeeper accepts the app as Notarized Developer ID. Final corrected-package runtime/installation checks are recorded separately from the preceding candidate.
+
+Cursor Mac verification of the final mounted installer: Gatekeeper accepted, Alpha copy launched with isolated data, About showed 0.9.6/build 5/source 499b9d62d31f, invitation-only Help opened, live Queue loaded and the app quit cleanly. The existing installed app was preserved. Final decision/export/relaunch proof is being collected separately.
+
+## Previous candidate verification (21 September; historical evidence)
 
 - Library Archive/Delete/Restore verified in the signed app; deleted state survives restart.
 - Archiving another row preserves the reading selection. Archiving a reviewed case preserves its decision, and Analytics identifies archived/deleted counts.
@@ -27,7 +33,7 @@ Updated 22 September 2026.
 - All 27 desktop source tests pass (session rules, corpus handling, process bridge and URL policy).
 - Signed package launches on the MacBook and loads real public P0GL0L data.
 - Existing local review state restores; a fresh local decision can be recorded and exported.
-- The packaged build manifest identifies source `f1e07f46c8c4`. Source handoff was verified during the preceding 0.9.5 audit; that implementation is unchanged.
+- The packaged build manifest identifies source `f1e07f46c8c4`. Source handoff was verified during the preceding 0.9.5 audit; this is historical evidence, not a final-candidate identity claim.
 - Signed application Analytics export succeeds with 12 cases and the persisted local decision.
 - Bundled Help opens the 0.9.6/build 5 guide.
 - Existing session/corpus/bridge tests plus seven Library regressions cover decision versioning, persistence, refresh gaps, restoration, write-failure rollback and selection. The earlier 0.9.5 packaged backend matrix remains separate evidence.
@@ -36,16 +42,23 @@ Updated 22 September 2026.
 
 The 0.9.6 UI check loaded 12 public cases and exported the report after a local decision was archived. Earlier 0.9.5 performance observations are not a benchmark for this build.
 
-## What remains before invited testers receive the DMG
+## Notarization and private staging
 
-1. Supply Apple notarization credentials locally to the authorized build operator.
-2. Submit the exact candidate, obtain Accepted status, staple the app and rebuilt DMG, and verify Gatekeeper acceptance.
-3. Test the final downloaded, quarantined package on a clean user account/Mac; verify guide/build identity and first-use flow.
-4. Stage the final notarized assets, regenerated checksums and manifest in private storage. Share only with approved testers. Keep public-repository releases in draft; do not use a public GitHub release as an invitation gate.
+Apple app submission: `6e145d4d-1bd2-4a12-b53a-68ce9e813b80` — Accepted.
+Apple DMG submission: `257a9328-97dc-4941-a073-bdca40bbedc7` — Accepted.
+App and DMG stapling validates; app Gatekeeper assessment is accepted / Notarized Developer ID. Source tree and packaged build metadata are clean at the revision above.
 
-The signed but unnotarized candidate is intentionally not presented as a verified tester download. The checksum below identifies the current internal candidate and will change after stapling/repackaging:
+Final stapled DMG SHA-256:
 
-`a3d3c05dd14f8c2e9d62f297e942b6460d7b08d8ac27862edb8d9189467434b2`
+`2bbbea50aad96816dbd0ebad8ceef6dbbe4205a59363cf3790b67038461d788c`
+
+The public-repository release drafts from 21 September identify older candidates and remain unpublished. They are not tester download links. The corrected installer is privately staged; it must not be published as a public release.
+
+## What remains before invitations
+
+1. Review applications received at SaltyEngineer@ASVLabs.com and approve the initial cohort. An application is not an invitation; no applications or invitations were sent by this verification task.
+2. Complete an external first-time-user pilot before broader distribution. Local isolated-data launch, About, Help and live Queue were checked; they are separate from clean-account/customer acceptance.
+3. Configure and verify recipient-restricted delivery for approved testers, with the final checksum, manifest, release notes and guide. No invitations have been sent.
 
 ## Alpha limitations
 

@@ -64,10 +64,12 @@ Authorship review plan: test interchangeability against unrelated storage/accoun
 ## 22 September private-alpha application revision (before implementation)
 
 Page: index.html; all classification and product-walkthrough choices above remain in force.
-The alpha section becomes the application destination at #alpha. The primary action is an ordinary email link with a fixed subject and a short application outline. The applicant reviews and sends their own email; the site never claims that opening a draft submits an application. The owner's confirmed inbox is required before publication. A visible address is a fallback for webmail/no default mail app.
+The alpha section becomes the application destination at #alpha. The primary action is an ordinary email link with a fixed subject and a short application outline. The applicant reviews and sends their own email; the site never claims that opening a draft submits an application. The destination is the owner's publicly advertised ASV Labs business inbox, verified on https://asv-labs.com/contact/ on 22 September 2026: SaltyEngineer@ASVLabs.com. This existing business route is the default unless the owner specifies another inbox. A visible address is a fallback for webmail/no default mail app.
 
 The page explains: apply → owner reviews → approved tester receives private installation instructions once the package is verified. No instant access, public binary, invented acceptance date or installed-app account gate. The candidate ledger remains adjacent to that action. Scope is Apple silicon/macOS 13+, fixed public sample corpus, local decisions.
 
 The primary header/hero action points to #alpha; the existing walkthrough remains as the secondary action. The application section stays an open two-column composition on desktop and a single-column, full-width mail action on mobile. A short FAQ explains manual release updates and invitation-only distribution. No new route, field widget, animation, card, screenshot or external service is introduced. Privacy copy distinguishes the in-page demo from email sent voluntarily by the applicant.
 
 Signature conformance, zero-card use, the eight rejected defaults, provenance and performance decisions are unchanged. Authorship review will revisit hero, decision workbench and application section at the three required viewports and validate the exact mailto recipient/subject/body without sending a real application. Email inbox receipt remains a separate proof.
+
+22 September application activation: the fixed mailto subject/body uses the verified public business address above. The visible address supports webmail users. Opening a draft is explicitly distinguished from sending an application. No mail is sent by this website or this verification task.
