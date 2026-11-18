@@ -31,7 +31,7 @@ Cursor Mac verification of the final mounted installer: Gatekeeper accepted, Alp
 - Full-width reading layout inspected at normal and enlarged text sizes; badge alignment and logo verified.
 
 - All 27 desktop source tests pass (session rules, corpus handling, process bridge and URL policy).
-- Signed package launches on the MacBook and loads real public P0GL0L data.
+- Signed package launches on the MacBook and loads real public data from the demo account.
 - Existing local review state restores; a fresh local decision can be recorded and exported.
 - The packaged build manifest identifies source `f1e07f46c8c4`. Source handoff was verified during the preceding 0.9.5 audit; this is historical evidence, not a final-candidate identity claim.
 - Signed application Analytics export succeeds with 12 cases and the persisted local decision.
@@ -62,4 +62,4 @@ The public-repository release drafts from 21 September identify older candidates
 
 ## Alpha limitations
 
-The pilot profile is fixed to P0GL0L public activity. There is no private-repository connection, team sync, general decision edit/undo, or deployment/publishing action. The guide includes current 0.9.6 reading-workspace and Library screenshots; remaining walkthrough images are explicitly identified as the preceding 0.9.4 workflow. Full VoiceOver qualification and external first-time-user testing remain follow-up work. App Store distribution is a separate release path.
+The pilot profile is fixed to public activity from a demo account. There is no private-repository connection, team sync, general decision edit/undo, or deployment/publishing action. The guide includes current 0.9.6 reading-workspace and Library screenshots; remaining walkthrough images are explicitly identified as the preceding 0.9.4 workflow. Full VoiceOver qualification and external first-time-user testing remain follow-up work. App Store distribution is a separate release path.

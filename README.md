@@ -4,7 +4,7 @@
 
 Kinetik is a Mac app that helps you understand software changes before they affect customers. It gathers public work from GitHub into a review queue, highlights what may deserve attention, and lets you record your judgment with a written reason. Your decisions stay on your Mac, ready to revisit or export as a report.
 
-**This alpha is a guided pilot using public activity for P0GL0L. It does not connect to your own account yet.**
+**This alpha is a guided pilot using public activity from a demo account. It does not connect to your own account yet.**
 
 [Explore Kinetik](https://asv-labs.github.io/kinetik-triage/) · [Read the illustrated guide](USER_GUIDE.md) · [Release status](RELEASE_STATUS.md) · [Report a problem](https://github.com/ASV-Labs/kinetik-triage/issues)
 
@@ -39,7 +39,7 @@ No developer tools or GitHub token are needed. If macOS rejects the package, sto
 
 | Available in this alpha | Outside this alpha |
 | --- | --- |
-| Public P0GL0L activity, including contributions to other repositories | Account selection and private repositories |
+| Public activity from a demo account, including contributions to other repositories | Account selection and private repositories |
 | Local approve / reject / defer records | GitHub approvals, merges, deployments, or publishing |
 | Saved review history and changed-assessment re-review | Shared team state and general edit/undo of prior decisions |
 | Timestamped JSON and Markdown reports | Hosted dashboards or automatic customer updates |
