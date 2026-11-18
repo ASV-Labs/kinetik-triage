@@ -6,6 +6,8 @@ Kinetik is a Mac app that helps you understand software changes before they affe
 
 **This alpha is a guided pilot using public activity from a demo account. It does not connect to your own account yet.**
 
+In 0.9.6/build 5, the staged candidate, the app loads that public activity live from GitHub by default. A separate demo-data build, planned as the next build, shows bundled sample data for a fictional demo account by default and makes no GitHub request. It has not been built or notarized yet. The guide images were captured from a development copy of the demo-data build.
+
 [Explore Kinetik](https://asv-labs.github.io/kinetik-triage/) · [Read the illustrated guide](USER_GUIDE.md) · [Release status](RELEASE_STATUS.md) · [Report a problem](https://github.com/ASV-Labs/kinetik-triage/issues)
 
 ## What you can do

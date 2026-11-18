@@ -1,12 +1,16 @@
 # Privacy notice
 
-Last updated: 22 September 2026. Applies to Kinetik Triage 0.9.6/build 5 and this alpha website.
+Last updated: 18 November 2026. Applies to Kinetik Triage 0.9.6/build 5 and this alpha website.
 
 ## Desktop app
 
 Kinetik requests public GitHub activity for a demo account directly from GitHub's API. Requests include ordinary HTTP headers and identify the requested public endpoint. GitHub receives network information such as your public IP address. GitHub's own privacy practices apply to its service.
 
 Kinetik stores your decisions, rationale, selected case, cached public data, and exports in `~/Library/Application Support/Kinetik Triage/`. The app does not upload your local rationale or decisions, request a GitHub access token, or include a Kinetik analytics/crash reporting service in this alpha. Following a source or help link opens your browser and visits that destination.
+
+### The demo-data build (next build, not yet released)
+
+The section above describes 0.9.6/build 5, which loads public activity for a demo account live from GitHub by default. A demo-data build is in development and has not been built, notarized, or distributed. In that build, Kinetik loads bundled sample data for a fictional demo account by default and makes no GitHub request; Source is shown as plain text, not a link. Live mode starts only when the app is launched with `KINETIK_CORPUS_MODE=live` and `KINETIK_LIVE_PROFILE` set to a public GitHub account (the fictional demo account is refused). In live mode it requests that account's public activity from GitHub's API as described above. It is not offered to testers yet.
 
 These are ordinary local files, not an encrypted vault. Other users/processes with access to your macOS account, your backup system, or synchronization tools may access or copy them. Protect the account and review your backup settings. Quit the app before backing up or removing the folder; removing it clears local review state and cached data.
 

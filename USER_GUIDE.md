@@ -41,7 +41,7 @@ Wait for the public queue to load. Select an item under **Awaiting review**. If 
 
 ![Kinetik 0.9.6 reading workspace with evidence and rationale side by side](docs/images/07-reading-096.jpg)
 
-The reading-workspace image above and Library image below were captured from 0.9.6/build 5. The other walkthrough images show the preceding 0.9.4 workflow; they predate the new layout and Library. Use the current button names in these instructions.
+The walkthrough images were captured from a development copy of the demo-data build, planned as the next build, not from the 0.9.6/build 5 package. They show bundled sample data for a fictional demo account. In 0.9.6/build 5 the queue holds live public activity from the demo account and **Source** is a GitHub link, so the cases you see will differ. Use the current button names in these instructions.
 
 | Queue group | Meaning |
 | --- | --- |
@@ -55,7 +55,7 @@ The reading-workspace image above and Library image below were captured from 0.9
 
 Read the recommendation, risk band, coverage, and reason for the recommendation. **Risk is a rule-based review signal, not proof that a change is safe or unsafe.** Coverage says how much of the file list was available. Partial or unavailable coverage means information is missing.
 
-Select the **Source** link to inspect the public item on GitHub in your browser. Open **Evidence**, **Assessment rules**, and **Review details** for supporting context. Repository rows provide background; they do not offer a decision form.
+Select the **Source** link to inspect the public item on GitHub in your browser. (In the demo-data build shown in the images, Source is plain text and is not a link.) Open **Evidence**, **Assessment rules**, and **Review details** for supporting context. Repository rows provide background; they do not offer a decision form.
 
 ![Recommendation, coverage, and decision controls](docs/images/02-case-summary-and-actions.png)
 
@@ -96,6 +96,8 @@ Review the contents before sharing. A report may reveal your local review activi
 **Refresh** (⌘R) checks GitHub again. **Retry** appears with an explanation when a load fails. The app may show the last saved queue, clearly labeled, or an empty queue when no saved data exists. Cached data can be out of date.
 
 ![A failed load notice with Retry](docs/images/06-retry-or-refresh-if-easy.png)
+
+This image comes from the demo-data build with live mode turned on and no network, so its notice names a different public account than 0.9.6/build 5 would.
 
 GitHub limits unauthenticated API requests by public IP address. The app shows the remaining allowance and reset time when available. Other software on your network can share the allowance. Wait until reset rather than repeatedly retrying a rate-limit failure. The app caches responses to reduce requests.
 
