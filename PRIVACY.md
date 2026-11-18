@@ -4,7 +4,7 @@ Last updated: 22 September 2026. Applies to Kinetik Triage 0.9.6/build 5 and thi
 
 ## Desktop app
 
-Kinetik requests public GitHub activity for P0GL0L directly from GitHub's API. Requests include ordinary HTTP headers and identify the requested public endpoint. GitHub receives network information such as your public IP address. GitHub's own privacy practices apply to its service.
+Kinetik requests public GitHub activity for a demo account directly from GitHub's API. Requests include ordinary HTTP headers and identify the requested public endpoint. GitHub receives network information such as your public IP address. GitHub's own privacy practices apply to its service.
 
 Kinetik stores your decisions, rationale, selected case, cached public data, and exports in `~/Library/Application Support/Kinetik Triage/`. The app does not upload your local rationale or decisions, request a GitHub access token, or include a Kinetik analytics/crash reporting service in this alpha. Following a source or help link opens your browser and visits that destination.
 

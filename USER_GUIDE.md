@@ -6,7 +6,7 @@
 
 Kinetik is a desktop app that helps you understand software changes before they affect customers. It gathers public work from GitHub into one review queue, highlights changes that may deserve a closer look, and lets you record what you think should happen next.
 
-This alpha is a **guided public-data pilot**. It reads public activity for **P0GL0L**, including contributions to other repositories. You cannot select your own account yet. Your written decisions stay on your Mac. The app does not merge code, publish releases, deploy software, or write to GitHub.
+This alpha is a **guided public-data pilot**. It reads public activity from a **demo account**, including contributions to other repositories. You cannot select your own account yet. Your written decisions stay on your Mac. The app does not merge code, publish releases, deploy software, or write to GitHub.
 
 ## Before you install
 
@@ -85,7 +85,7 @@ Open **Analytics** and click **Export JSON and Markdown**. JSON is for tools; Ma
 
 ![Analytics report and export control](docs/images/05-analytics-export.png)
 
-Use **Reveal in Finder** to locate the files or **Copy path** to copy their location. Exports have timestamped names such as `kinetik-analytics-P0GL0L-2026-09-21T….json` and `.md` in:
+Use **Reveal in Finder** to locate the files or **Copy path** to copy their location. Exports have timestamped names such as `kinetik-analytics-[account]-2026-09-21T….json` and `.md` in:
 
 `~/Library/Application Support/Kinetik Triage/analytics/`
 
