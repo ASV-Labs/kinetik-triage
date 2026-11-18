@@ -39,7 +39,7 @@ If another version is already running, quit it before opening the new one. Openi
 
 Wait for the public queue to load. Select an item under **Awaiting review**. If that group is empty, the current public activity may have no actionable items. You can still inspect informational and recent activity; there is nothing you must approve just to finish onboarding.
 
-![Kinetik 0.9.6 reading workspace with evidence and rationale side by side](docs/images/07-reading-096.jpg)
+![Reading workspace with evidence and rationale side by side, from a development copy of the demo-data build](docs/images/07-reading-096.jpg)
 
 The walkthrough images were captured from a development copy of the demo-data build, planned as the next build, not from the 0.9.6/build 5 package. They show bundled sample data for a fictional demo account. In 0.9.6/build 5 the queue holds live public activity from the demo account and **Source** is a GitHub link, so the cases you see will differ. Use the current button names in these instructions.
 
@@ -163,4 +163,4 @@ Archived cases remain included in Analytics; deleted cases are excluded. The rep
 
 The reading pane uses two columns in a wide window: evidence on the left and your rationale or recorded decision on the right. In a narrower window the sections stack. The top status labels have matching heights, and the Kinetik logo identifies the app. Technical source and scoring-version metadata is available in the header tooltip; the visible account label uses plain language.
 
-![Kinetik 0.9.6 Library showing an archived case with Restore and Delete controls](docs/images/08-library-096.jpg)
+![Library showing an archived case with Restore and Delete controls, from a development copy of the demo-data build](docs/images/08-library-096.jpg)
