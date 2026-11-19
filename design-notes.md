@@ -20,7 +20,7 @@ Implementation stack: static semantic HTML, CSS and vanilla JavaScript on GitHub
 Experience thesis: Visitors understand that Kinetik gathers public software work into a review queue, helps them inspect its evidence, and keeps a written local decision. They feel oriented, believe the narrow alpha promise, and know exactly where to get the matching guide and release.
 
 Creative concept: **The review trail.** A blue rule runs from public change, through human judgment, to a portable record. This follows the app's actual information flow instead of a generic feature taxonomy.
-Subject cues: (1) repository / proposed change / local review vocabulary translated beside its technical term; (2) visible Approve / Reject / Defer choices with a required written reason; (3) a report extract and device-only boundary; (4) fixed P0GL0L sample scope next to the release action.
+Subject cues: (1) repository / proposed change / local review vocabulary translated beside its technical term; (2) visible Approve / Reject / Defer choices with a required written reason; (3) a report extract and device-only boundary; (4) fixed demo-account sample scope next to the release action.
 Selected composition: product-walkthrough.
 Why this composition fits: the product is a sequence of evidence and decisions. An ordered spine lets a novice understand that sequence before installing.
 Style atlas match: SaaS or Technical Product, precise + trustworthy.
